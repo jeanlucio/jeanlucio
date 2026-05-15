@@ -6,7 +6,7 @@ Professor de Informática · Desenvolvedor de Plugins Moodle
 
 ## Sobre mim
 
-- Criador do ecossistema **PlayerHUD** — gamificação nativa para o Moodle
+- Criador do ecossistema **PlayerGames** de gamificação para o Moodle! 🕹️
 - Desenvolvo plugins publicados no [Moodle Plugin Directory](https://moodle.org/plugins/browse.php?list=contributor&id=3970322)
 - Foco em acessibilidade, segurança e padrões Moodle HQ
 
