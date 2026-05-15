@@ -1,6 +1,6 @@
 # Jean Lúcio
 
-Professor de Informpatica **Desenvolvedor de Plugins Moodle** · PHP · JavaScript · Gamificação para EAD
+Professor de Informática · Desenvolvedor de Plugins Moodle
 
 ---
 
