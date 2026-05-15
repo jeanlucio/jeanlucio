@@ -29,13 +29,8 @@
 
 <div align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=jeanlucio&show_icons=true&hide_border=true&count_private=true&cache_seconds=86400"
-    alt="GitHub Stats"
-    height="160"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeanlucio&layout=compact&hide_border=true&cache_seconds=86400"
-    alt="Top Languages"
+    src="https://streak-stats.demolab.com/?user=jeanlucio&hide_border=true"
+    alt="GitHub Streak"
     height="160"
   />
 </div>
