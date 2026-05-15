@@ -53,5 +53,5 @@ Professor de Informática · Desenvolvedor de Plugins Moodle
 ---
 
 <div align="center">
-  <sub>Feito com Moodle, PHP e muita gamificação ☕</sub>
+  <sub>Feito com Moodle, PHP e muita gamificação 🕹️</sub>
 </div>
