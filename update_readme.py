@@ -32,7 +32,7 @@ def get_latest_tag(repo_name, token):
     return "-"
 
 def get_repos(token):
-    url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=100"
+    url = f"https://api.github.com/users/{USERNAME}/repos?sort=pushed&per_page=100"
     headers = {"Accept": "application/vnd.github.v3+json"}
     if token:
         headers["Authorization"] = f"Bearer {token}"
@@ -72,7 +72,7 @@ def main():
         tag = get_latest_tag(name, token)
         
         # Converter a data para o fuso horário de Brasília (BRT: UTC-3)
-        updated_at_raw = repo.get("updated_at")
+        updated_at_raw = repo.get("pushed_at") or repo.get("updated_at")
         try:
             dt_utc = datetime.strptime(updated_at_raw, "%Y-%m-%dT%H:%M:%SZ")
             dt_brt = dt_utc - timedelta(hours=3)

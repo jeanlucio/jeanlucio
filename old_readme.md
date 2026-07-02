@@ -40,21 +40,17 @@ Professor de Informática · Desenvolvedor de Plugins Moodle
 
 ---
 
-## Últimas atualizações
+## Projetos em Destaque
 
-<!-- START_LATEST_REPOS -->
-| Plugin | Descrição | Última Tag | Data/Hora (BRT) |
-|--------|-----------|------------|-----------------|
-| [moodle-block_playerhud](https://github.com/jeanlucio/moodle-block_playerhud) | PlayerHUD introduces structured gamification to Moodle courses through XP, levels, inventory, and ranking. Teachers define progression thresholds and engagement rules, while students may choose to participate. | v1.6.2 | 02/07/2026 14:12 |
-| [moodle-local_aihub](https://github.com/jeanlucio/moodle-local_aihub) | AI Hub is a small BYOK (bring your own key) broker for Moodle. It lets the institution's own plugins generate text through shared AI API keys, without each plugin reimplementing the HTTP transport, the SSRF guard, the provider ladder or a key store. | v1.0.0 | 01/07/2026 12:53 |
-| [moodle-block_playergames](https://github.com/jeanlucio/moodle-block_playergames) | PlayerGames Widget (block_playergames) is a thin sidebar companion block for the PlayerGames gamification ecosystem for Moodle. | - | 01/07/2026 09:22 |
-| [moodle-local_playergames](https://github.com/jeanlucio/moodle-local_playergames) | PlayerGames (local_playergames) is the central hub of the PlayerGames gamification ecosystem for Moodle. | - | 01/07/2026 08:10 |
-| [moodle-local_studiolms](https://github.com/jeanlucio/moodle-local_studiolms) | Sem descrição | - | 29/06/2026 19:47 |
-
-<!-- END_LATEST_REPOS -->
+| Plugin | Descrição |
+|--------|-----------|
+| [block_playerhud](https://github.com/jeanlucio/moodle-block_playerhud) | HUD de gamificação com XP, conquistas, missões e inventário |
+| [filter_playerhud](https://github.com/jeanlucio/moodle-filter_playerhud) | Filtro Moodle que renderiza os dados do PlayerHUD em qualquer conteúdo |
+| [availability_playerhud](https://github.com/jeanlucio/moodle-availability_playerhud) | Condição de disponibilidade baseada em nível e conquistas |
+| [mod_playergroup](https://github.com/jeanlucio/moodle-mod_playergroup) | Atividade de grupos com ranking e missões colaborativas |
 
 ---
 
 <div align="center">
-  <sub>Feito com Moodle, PHP e muita gamificação ☕</sub>
+  <sub>Feito com Moodle, PHP e muita gamificação 🕹️</sub>
 </div>
