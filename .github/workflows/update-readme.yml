@@ -1,0 +1,33 @@
+name: Update README with latest repos
+
+on:
+  schedule:
+    # 15:00 UTC é 12:00 (Meio-dia) no Horário de Brasília (BRT)
+    - cron: '0 15 * * *'
+  workflow_dispatch: # Permite rodar manualmente a qualquer momento
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python update_readme.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          # Só faz o commit se houver alguma mudança
+          git commit -m "docs: Atualiza lista de últimos repositórios 🤖" || echo "No changes to commit"
+          git push
