@@ -61,13 +61,13 @@ def main():
             break
 
     # Criação da tabela Markdown
-    markdown = "| Plugin | Descrição | Última Tag | Data/Hora (BRT) |\n"
-    markdown += "|--------|-----------|------------|-----------------|\n"
+    markdown = "| Plugin | Description / Descrição | Latest Tag / Última Tag | Date/Time / Data/Hora (BRT) |\n"
+    markdown += "|--------|-------------------------|-------------------------|-----------------------------|\n"
     
     for repo in filtered_repos:
         name = repo.get("name")
         url = repo.get("html_url")
-        desc = repo.get("description") or "Sem descrição"
+        desc = repo.get("description") or "No description / Sem descrição"
         
         tag = get_latest_tag(name, token)
         
