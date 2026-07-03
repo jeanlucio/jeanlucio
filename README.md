@@ -50,13 +50,13 @@ Computer Science Teacher · Moodle Plugin Developer
 ## Latest Updates / Últimas atualizações
 
 <!-- START_LATEST_REPOS -->
-| Plugin | Description / Descrição | Latest Tag / Última Tag | Date/Time / Data/Hora (BRT) |
-|--------|-------------------------|-------------------------|-----------------------------|
-| [moodle-local_studiolms](https://github.com/jeanlucio/moodle-local_studiolms) | No description / Sem descrição | - | 03/07/2026 16:48 |
-| [moodle-local_virtuallab](https://github.com/jeanlucio/moodle-local_virtuallab) | Lab Virtual (local_labvirtual) is a Moodle local plugin for batch creation and lifecycle management of sandbox lab courses, organised into batches (one per class or discipline), with a self-service student panel so students can pick and join their workspace without any admin intervention each semester. | v1.0.1 | 03/07/2026 16:39 |
-| [moodle-block_teacher_checklist](https://github.com/jeanlucio/moodle-block_teacher_checklist) | Teacher Checklist is a Moodle block that helps teachers track the quality of their course setup. It combines automatic issue detection with a manual to-do list so nothing slips through the cracks before students arrive. | v1.3.1 | 03/07/2026 16:17 |
-| [moodle-block_playerhud](https://github.com/jeanlucio/moodle-block_playerhud) | PlayerHUD introduces structured gamification to Moodle courses through XP, levels, inventory, and ranking. Teachers define progression thresholds and engagement rules, while students may choose to participate. | v1.6.2 | 03/07/2026 15:30 |
-| [moodle-local_plugwatch](https://github.com/jeanlucio/moodle-local_plugwatch) | No description / Sem descrição | - | 03/07/2026 09:28 |
+| Plugin | Description / Descrição | Latest Release / Última Release | Latest Commit / Último Commit |
+|--------|-------------------------|---------------------------------|-------------------------------|
+| [moodle-local_studiolms](https://github.com/jeanlucio/moodle-local_studiolms) | No description / Sem descrição | - | [7cbcc8f](https://github.com/jeanlucio/moodle-local_studiolms/commit/7cbcc8fa3a92cc70108deb90de71bbb89868de00)<br>03/07/2026 16:46 |
+| [moodle-local_virtuallab](https://github.com/jeanlucio/moodle-local_virtuallab) | Lab Virtual (local_labvirtual) is a Moodle local plugin for batch creation and lifecycle management of sandbox lab courses, organised into batches (one per class or discipline), with a self-service student panel so students can pick and join their workspace without any admin intervention each semester. | - | [24a0657](https://github.com/jeanlucio/moodle-local_virtuallab/commit/24a0657b49b6fbcc262c5395461f769fe58fd382)<br>03/07/2026 16:38 |
+| [moodle-block_teacher_checklist](https://github.com/jeanlucio/moodle-block_teacher_checklist) | Teacher Checklist is a Moodle block that helps teachers track the quality of their course setup. It combines automatic issue detection with a manual to-do list so nothing slips through the cracks before students arrive. | [v1.3.1](https://github.com/jeanlucio/moodle-block_teacher_checklist/releases/tag/v1.3.1)<br>03/07/2026 16:18 | [1f3463e](https://github.com/jeanlucio/moodle-block_teacher_checklist/commit/1f3463ee84d43b99a24efd3bd0a3a4caac38dfc6)<br>03/07/2026 16:12 |
+| [moodle-block_playerhud](https://github.com/jeanlucio/moodle-block_playerhud) | PlayerHUD introduces structured gamification to Moodle courses through XP, levels, inventory, and ranking. Teachers define progression thresholds and engagement rules, while students may choose to participate. | [v1.6.2](https://github.com/jeanlucio/moodle-block_playerhud/releases/tag/v1.6.2)<br>29/06/2026 21:22 | [ba45e3c](https://github.com/jeanlucio/moodle-block_playerhud/commit/ba45e3c9e1fca356bb31333e9cfb96ef28a1f3d8)<br>02/07/2026 14:42 |
+| [moodle-local_plugwatch](https://github.com/jeanlucio/moodle-local_plugwatch) | No description / Sem descrição | - | [225bbf9](https://github.com/jeanlucio/moodle-local_plugwatch/commit/225bbf91822018e7c1f5a2c73f40ef4b46ad782c)<br>03/07/2026 09:28 |
 
 <!-- END_LATEST_REPOS -->
 
