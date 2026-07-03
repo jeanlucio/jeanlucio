@@ -79,27 +79,55 @@ def main():
         print("Aviso: GITHUB_TOKEN não definido. Pode haver limite de requisições na API.")
 
     repos = get_repos(token)
-    filtered_repos = []
+    candidate_repos = []
     
     for repo in repos:
         # Filtra repos privados e os da lista de exceção
         if not repo.get("private") and repo.get("name") not in EXCLUDE_REPOS:
-            filtered_repos.append(repo)
+            candidate_repos.append(repo)
         
-        if len(filtered_repos) >= MAX_REPOS:
+        # Pega uma margem maior de repositórios (ex: 15) para garantir que acharemos
+        # os 5 com os commits mais recentes na branch main, desconsiderando
+        # pushes feitos apenas em feature branches.
+        if len(candidate_repos) >= 15:
             break
+
+    # Busca a data do último commit (na main) para cada candidato
+    repo_data_list = []
+    for repo in candidate_repos:
+        name = repo.get("name")
+        commit_sha, commit_date = get_latest_commit(name, token)
+        
+        sort_date = commit_date if commit_date else "1970-01-01T00:00:00Z"
+        
+        repo_data_list.append({
+            "repo": repo,
+            "name": name,
+            "url": repo.get("html_url"),
+            "desc": repo.get("description") or "No description / Sem descrição",
+            "commit_sha": commit_sha,
+            "commit_date": commit_date,
+            "sort_date": sort_date
+        })
+
+    # Ordena os candidatos pela data real do último commit da main
+    repo_data_list.sort(key=lambda x: x["sort_date"], reverse=True)
+    
+    # Pega apenas os 5 mais recentes
+    final_repos = repo_data_list[:MAX_REPOS]
 
     # Criação da tabela Markdown
     markdown = "| Plugin | Description / Descrição | Latest Release / Última Release | Latest Commit / Último Commit |\n"
     markdown += "|--------|-------------------------|---------------------------------|-------------------------------|\n"
     
-    for repo in filtered_repos:
-        name = repo.get("name")
-        url = repo.get("html_url")
-        desc = repo.get("description") or "No description / Sem descrição"
+    for item in final_repos:
+        name = item["name"]
+        url = item["url"]
+        desc = item["desc"]
+        commit_sha = item["commit_sha"]
+        commit_date = item["commit_date"]
         
         rel_tag, rel_date = get_latest_release(name, token)
-        commit_sha, commit_date = get_latest_commit(name, token)
         
         if rel_tag and rel_date:
             rel_str = f"[{rel_tag}]({url}/releases/tag/{rel_tag})<br>{format_date(rel_date)}"
