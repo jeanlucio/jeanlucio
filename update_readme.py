@@ -13,7 +13,8 @@ EXCLUDE_REPOS = [
     "awesome-moodle",
     "jeanlucio",
     "files",
-    "moodle-format_trail"
+    "moodle-format_trail",
+    "cidade-da-leitura"
 ]
 MAX_REPOS = 5
 
