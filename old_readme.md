@@ -7,7 +7,7 @@ Professor de Informática · Desenvolvedor de Plugins Moodle
 ## Sobre mim
 
 - Criador do ecossistema [**PlayerGames**](https://jeanlucio.github.io/playergames/) de gamificação para o Moodle! 🕹️
-- Desenvolvo plugins publicados no [Moodle Plugin Directory](https://moodle.org/plugins/browse.php?list=contributor&id=3970322)
+- Desenvolvo plugins publicados no [Marketplace Moodle](https://marketplace.moodle.com/user/984)
 - Foco em acessibilidade, segurança e padrões Moodle HQ
 
 ---
