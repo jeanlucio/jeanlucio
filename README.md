@@ -8,12 +8,12 @@ Computer Science Teacher · Moodle Plugin Developer
 ## About me / Sobre mim
 
 🇺🇸 **EN:**
-- Creator of the **PlayerGames** gamification ecosystem for Moodle! 🕹️
+- Creator of the [**PlayerGames**](https://jeanlucio.github.io/playergames/) gamification ecosystem for Moodle! 🕹️
 - Developing plugins published on the [Moodle Plugin Directory](https://moodle.org/plugins/browse.php?list=contributor&id=3970322)
 - Focused on accessibility, security, and Moodle HQ standards
 
 🇧🇷 **PT-BR:**
-- Criador do ecossistema **PlayerGames** de gamificação para o Moodle! 🕹️
+- Criador do ecossistema [**PlayerGames**](https://jeanlucio.github.io/playergames/) de gamificação para o Moodle! 🕹️
 - Desenvolvo plugins publicados no [Moodle Plugin Directory](https://moodle.org/plugins/browse.php?list=contributor&id=3970322)
 - Foco em acessibilidade, segurança e padrões Moodle HQ
 
@@ -27,7 +27,7 @@ Computer Science Teacher · Moodle Plugin Developer
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SCSS" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Moodle-F98012?style=for-the-badge&logo=moodle&logoColor=white" alt="Moodle" />
   
