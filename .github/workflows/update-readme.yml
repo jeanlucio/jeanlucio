@@ -7,6 +7,12 @@ on:
     # Evita o minuto '0' para não sofrer atrasos nas filas globais do GitHub Actions
     - cron: '15 2,11,13,15,21 * * *'
   workflow_dispatch: # Permite rodar manualmente a qualquer momento
+  # Também disparado pelo crontab do servidor (horário exato); o schedule acima fica como reserva
+
+# Enfileira execuções simultâneas (dispatch + schedule) para evitar conflito no git push
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
 
 jobs:
   update-readme:
